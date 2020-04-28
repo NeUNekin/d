@@ -1,7 +1,7 @@
 import React from 'react'
-import { Typography, Paper, Avatar, Button } from '../components/App/node_modules/@material-ui/core'
+import { Typography, Paper, Avatar, Button } from '@material-ui/core'
 import VerifiedUserOutlined from '@material-ui/icons/VerifiedUserOutlined'
-import withStyles from '../login/node_modules/@material-ui/core/styles/withStyles'
+import withStyles from '@material-ui/core/styles/withStyles'
 import { Link } from 'react-router-dom'
 
 const styles = theme => ({
