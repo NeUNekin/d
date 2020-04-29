@@ -5,9 +5,8 @@ import Login from '../Login'
 import Register from '../Register'
 import Dashboard from '../Dashboard'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
-import { CssBaseline, CircularProgress } from '@material-ui/core'
+import { CssBaseline } from '@material-ui/core'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
 const theme = createMuiTheme()
 
 export default function App() {
