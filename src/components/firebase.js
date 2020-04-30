@@ -1,17 +1,19 @@
 import app from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/firebase-firestore'
+import 'firebase/firestore'
+
 
 const config = {
-	apiKey: "AIzaSyA4RexKYhwt-5V22-834JkrXXRZRmjF9B0",
-    authDomain: "food-blogs-mini-project.firebaseapp.com",
-    databaseURL: "https://food-blogs-mini-project.firebaseio.com",
-    projectId: "food-blogs-mini-project",
-    storageBucket: "food-blogs-mini-project.appspot.com",
-    messagingSenderId: "948133841404",
-    appId: "1:948133841404:web:8b46e6ae6085d47f588a79",
-	measurementId: "G-F7M5453PHC",
-}
+	apiKey: "AIzaSyB5O-fx0m6JnpkhiN-EYcFjT0mge9E_6xs",
+    authDomain: "mini-project-food-blogs.firebaseapp.com",
+    databaseURL: "https://mini-project-food-blogs.firebaseio.com",
+    projectId: "mini-project-food-blogs",
+    storageBucket: "mini-project-food-blogs.appspot.com",
+    messagingSenderId: "416980873563",
+  	appId: "1:416980873563:web:21922f26235b4151f3ea7e",
+  	measurementId: "G-QK94HX0VM8"
+};
 
 class Firebase {
 	constructor() {

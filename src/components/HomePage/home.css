@@ -1,0 +1,67 @@
+.review1{
+  background-color:white;
+  width : 1000px;
+  border: 10px solid rgba(252, 143, 19, 0.294);
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  margin-left: 780px;
+  
+}
+
+
+
+.review2{
+    background-color:white;
+    width : 1000px;
+    border: 10px solid rgba(252, 143, 19, 0.294);
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    margin-left: 780px;
+    
+  }
+
+
+  .review3{
+    background-color:white;
+    width : 1000px;
+    border: 10px solid rgba(252, 143, 19, 0.294);
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    margin-left: 780px;
+    
+  }
+.homefood h1{
+    text-align: center;
+    font-family: fantasy;
+    
+    
+}
+.centerpic{
+    text-align: center;
+}
+.homefood h3{
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.homefood h2{
+    text-align: center;
+    font-family: monospace;
+
+}
+
+.homefood p{
+    text-align: center;
+    font-family: monospace;
+}
+
+.test{
+    background-color:AntiqueWhite;
+    
+
+}
+

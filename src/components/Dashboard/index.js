@@ -3,6 +3,9 @@ import { Typography, Paper, Avatar, CircularProgress, Button } from '@material-u
 import VerifiedUserOutlined from '@material-ui/icons/VerifiedUserOutlined'
 import withStyles from '@material-ui/core/styles/withStyles'
 import firebase from '../firebase'
+import Home from '../HomePage/Home'
+
+
 import { withRouter } from 'react-router-dom'
 
 const styles = theme => ({
@@ -11,10 +14,10 @@ const styles = theme => ({
 		display: 'block', // Fix IE 11 issue.
 		marginLeft: theme.spacing.unit * 3,
 		marginRight: theme.spacing.unit * 3,
-		[theme.breakpoints.up(400 + theme.spacing.unit * 3 * 2)]: {
+		[theme.breakpoints.up(400+ theme.spacing.unit * 3 * 2)]: {
 			width: 400,
-			marginLeft: 'auto',
 			marginRight: 'auto',
+			marginLeft: 'auto',
 		},
 	},
 	paper: {
@@ -50,17 +53,13 @@ function Dashboard(props) {
 	})
 
 	return (
+		<div>
 		<main className={classes.main}>
 			<Paper className={classes.paper}>
 				<Avatar className={classes.avatar}>
-					<VerifiedUserOutlined />
+					<img src="signs.png"/>
+					
 				</Avatar>
-				<Typography component="h1" variant="h5">
-					Hello { firebase.getCurrentUsername() }
-				</Typography>
-				<Typography component="h1" variant="h5">
-					Your quote: {quote ? `"${quote}"` : <CircularProgress size={20} />}
-				</Typography>
 				<Button
 					type="submit"
 					fullWidth
@@ -71,7 +70,10 @@ function Dashboard(props) {
 					Logout
           		</Button>
 			</Paper>
+			
 		</main>
+		<Home/>
+		</div>
 	)
 
 	async function logout() {
